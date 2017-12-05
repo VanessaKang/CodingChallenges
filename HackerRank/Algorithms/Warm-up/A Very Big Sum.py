@@ -9,16 +9,15 @@
 import sys
 
 def aVeryBigSum(n, ar):
-    
-    sum = 0
+    return sum(ar)
 
-    #Go through all numbers in an index 
-    for index in range(n):
-        
-        #All all numbers in array to sum variable to keep count 
-        sum+=ar[index]
-        
-    return sum 
+#Alternative 1  
+##    bigSum = 0
+##    #Go through all numbers in an index 
+##    for numbers in ar:
+##        #All all numbers in array to sum variable to keep count 
+##        bigSum+=numbers
+##    return(bigSum)
         
 
 n = int(raw_input().strip())
